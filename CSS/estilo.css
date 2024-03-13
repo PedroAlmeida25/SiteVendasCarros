@@ -1,0 +1,13 @@
+body{
+    background-color: #808080;
+    margin: 0%;/* Espaço Interno da página*/
+    padding: 0%;/* Espaço Externo da página*/
+}
+
+#bemVindos{
+    width: 100%;
+    border: 2%;
+    text-align: center;
+    font-size: 26%;
+    background-color: #fff;
+}
