@@ -11,3 +11,135 @@ body{
     font-size: 26%;
     background-color: #fff;
 }
+
+#imagemInicial{
+    width: 100%;
+    padding-left: 5% 10% 5% 10%;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-gap: 1%;
+}
+
+#gd1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+    font-size: 22px;
+}
+
+h4{
+    font-family: 'Gill Sans';
+    font-size: 22px;
+    text-align: left;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+#gd2{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    border: 2px solid #788;
+    font-size: 22px;
+}
+
+h5{
+    font-family: 'Gill Sans';
+    font-size: 22px;
+    text-align: left;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+#gd3{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 1;
+    border: 2px solid #788;
+    font-size: 22px;
+}
+
+h6{
+    font-family: 'Gill Sans';
+    font-size: 22px;
+    text-align: left;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+#gd4{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+    font-size: 22px;
+}
+
+h7{
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    text-align: center;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+
+#gd5{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+    font-size: 22px;
+    text-align: center;
+}
+
+h8{
+    font-family: 'Gill Sans';
+    font-size: 25px;
+    text-align: center;
+    padding: 3%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+}
+#gd6{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    border: 2px solid #788;
+    font-size: 22px;
+}
+
+#fechamento, #rodape{
+    height: 9%; 
+    text-align: center;
+    border: 2px solid #000;
+    margin-top: 1%;
+    font-size: 25px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+}
+
+#historia{
+    height: 30%;
+    border: 2px solid #000;
+    padding: 5%;
+    font-size: 30px;
+    text-align: justify;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
