@@ -1,0 +1,29 @@
+body{
+    background-color: #F0F8FF;
+    margin: 0%;/* Espaço Interno da página*/
+    padding: 0%;/* Espaço Externo da página*/
+}
+
+#historiaEmp{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    background-color: #fff;
+}
+
+h12{
+    font-family: 'Gill Sans';
+    font-size: 50px;
+    text-align: center;
+}
+
+h13{
+    font-family: 'Gill Sans';
+    font-size: 40px;
+    text-align: left;
+}
+
+p{
+    font-size: 25px;
+    text-align: left;
+}
